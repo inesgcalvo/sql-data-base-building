@@ -167,7 +167,7 @@ SELECT
     s.latitude AS `Latitude`, 
     s.longitude AS `Longitude`, 
     
--- Here is the Haversine formula for calculating the distance in Kilometters between two points on the Earth's surface:
+-- Here is the Haversine formula for calculating the distance in Kilometers between two points on the Earth's surface:
 -- hav(d/r) = hav(lat2 - lat1) + cos(lat1) * cos(lat2) * hav(long2 - long1)
 
     6371 * 2 * ASIN(SQRT( POWER(SIN((42.4798902 - abs(Latitude)) * pi()/180 / 2),2) + COS(42.4798902 * pi()/180 ) * COS(abs(Latitude) *  pi()/180) * POWER(SIN((-2.0943004 - Longitude) *  pi()/180 / 2), 2) )) as `distance`
