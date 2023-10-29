@@ -3,3 +3,5 @@
 /output_clean
 /.ipynb_checkpoints
 /notebooks/.ipynb_checkpoints
+/python/.ipynb_checkpoints
+/python/__pycache__
