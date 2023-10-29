@@ -7,12 +7,12 @@ Then, create the EER diagram with the relations between the tables and insert th
 At the end, when the SQL database is created, create queries.
 
 /python 
-src.py -- contains the functions for data cleansing
-main.ipynb -- contains the main code for data cleansing, table creations and exportation as CSV
+    src.py -- contains the functions for data cleansing
+    main.ipynb -- contains the main code for data cleansing, table creations and exportation as CSV
 
 /SQL
-create.sql -- the SQL code for creation of the database, include the feeding of the tables and their relatioships.
-queries.sql -- includes 10 different queries
+    create.sql -- the SQL code for creation of the database, include the feeding of the tables and their relatioships.
+    queries.sql -- includes 10 different queries
 
 
 The starting data was obtained from:
