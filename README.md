@@ -11,8 +11,9 @@ src.py -- contains the functions for data cleansing
 main.ipynb -- contains the main code for data cleansing, table creations and exportation as CSV
 
 /SQL
-create.sql -- the SQL code for creation of the database, include the filled tables and their relatioships.
+create.sql -- the SQL code for creation of the database, include the feeding of the tables and their relatioships.
 queries.sql -- includes 10 different queries
+
 
 The starting data was obtained from:
 https://github.com/Ironhack-Data-Madrid-Octubre-2023/w3-project_SQL.git
